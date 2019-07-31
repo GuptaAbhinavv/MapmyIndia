@@ -1,13 +1,11 @@
 # MapmyIndia
-Internship plan
+##Internship plan
 
 
 
-Part1. Camera Calibration:
-Intrinsic
-Extrinsic
-ArUco Marker
-Lidar & Camera together
+###Part1. Camera Calibration:
+####1. Intrinsic, using checkerboard pattern
+####2. Extrinsic, using ArUco markers
 
 2. Data Preprocessing:
 
