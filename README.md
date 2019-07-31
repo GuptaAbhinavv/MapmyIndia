@@ -4,12 +4,14 @@
 
 
 ### Part1. Camera Calibration:
-#### 1. Intrinsic, using checkerboard pattern
-#### 2. Extrinsic, using ArUco markers
+#### 1. Intrinsic, *using checkerboard pattern*
+#### 2. Extrinsic, *using ArUco markers*
 
-2. Data Preprocessing:
 
-BAG FILES
+## Intrinsic
+1. **Data Preprocessing:**
+
+###### BAG FILES
 A bag is a file format in ROS for storing ROS message data. Bags -- so named because of their .bag extension -- have an important role in ROS, and a variety of tools have been written to allow you to store, process, analyze, and visualize them.
 Bags are typically created by a tool like rosbag, which subscribe to one or more ROS topics, and store the serialized message data in a file as it is received. These bag files can also be played back in ROS to the same topics they were recorded from or even remapped to new topics.
 
@@ -19,7 +21,7 @@ The output might look something like this:
 
                                            Fig. 1
 
-IMAGE EXTRACTION
+###### IMAGE EXTRACTION
 The images contained in the bag file can be extracted using the below given code snippet:
 Command to run the below code:
                  python program_name.py bag_file.bag path_name image_topic
@@ -49,10 +51,10 @@ Note that the directory for storing the left and right images needs to be create
 
 3. Intrinsic Parameters:
 
-FLOWCHART
+###### FLOWCHART
 
 
-IMPORTANT FUNCTIONS USED 
+###### IMPORTANT FUNCTIONS USED 
 compare_ssim: Compute the mean structural similarity index between two images.
 
 cv2.findChessboardCorners: Finds positions of the internal corners of the chessboard. Returns a boolean value depending on if the given shape of corners are found, also returns location of the corners if true.
@@ -65,7 +67,7 @@ cv2.calibrateCamera: Finds the camera intrinsic and extrinsic parameters from se
 cv2.projectPoints: Projects 3D points to an image. Used for calculating the reprojection error.
 cv2.norm: Calculates the absolute or relative difference norm between the given image matrices. 
 
-RESULTS
+###### RESULTS
 The algorithm takes 40 patterns from the given sample to calibrate the given camera. To cover all the possible orientations of the checkerboard, the selected sample images must be different in orientations. Three techniques have been used to select such samples-
 Simply selecting first 40 images: Very low reprojection error suggests a possibility of images with similar orientations of the board been selected for calibration.  Therefore, a technique to select “good” images from the sample is required.
 
