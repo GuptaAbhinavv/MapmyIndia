@@ -53,6 +53,7 @@ Note that the directory for storing the left and right images needs to be create
 
 ###### FLOWCHART
 
+![Fig. 3](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image3.png)
 
 
 ###### IMPORTANT FUNCTIONS USED 
