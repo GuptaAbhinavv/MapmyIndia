@@ -81,10 +81,8 @@ For left images:
 Skipping a few images after each image: Another approach we came up with is to skip about 20 to 25 images after selecting one so as to keep the variation amongst the selected images. The results obtained on including every 30th image are:
  
 Calculating Structural Similarity index and filtering: Involves calculating the structural similarity index to compare every image with the previous image selected for calibration, based on the assumption that each image is more likely to be similar to the image previous to it as compared to others. A threshold value of SSIM is selected arbitrarily and the images with their value higher than the threshold are rejected. The results, obviously, are highly sensitive to the threshold value. 
-Results with threshold SSIM = 0.65
-
-
-      b.   Results with threshold SSIM = 0.62
+######    a. Results with threshold SSIM = 0.65
+######    b. Results with threshold SSIM = 0.62
 
 
 
