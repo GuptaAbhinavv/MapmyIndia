@@ -9,9 +9,9 @@
 
 
 ## Intrinsic
-1. **Data Preprocessing:**
 
-###### BAG FILES
+
+###### BAG FILES(Preprocessing)
 A bag is a file format in ROS for storing ROS message data. Bags -- so named because of their .bag extension -- have an important role in ROS, and a variety of tools have been written to allow you to store, process, analyze, and visualize them.
 Bags are typically created by a tool like rosbag, which subscribe to one or more ROS topics, and store the serialized message data in a file as it is received. These bag files can also be played back in ROS to the same topics they were recorded from or even remapped to new topics.
 
@@ -49,23 +49,22 @@ Note that the directory for storing the left and right images needs to be create
 
 
 
-3. Intrinsic Parameters:
 
 ###### FLOWCHART
 
 
 ###### IMPORTANT FUNCTIONS USED 
-compare_ssim: Compute the mean structural similarity index between two images.
+**_compare_ssim_**: Compute the mean structural similarity index between two images.
 
-cv2.findChessboardCorners: Finds positions of the internal corners of the chessboard. Returns a boolean value depending on if the given shape of corners are found, also returns location of the corners if true.
+**_cv2.findChessboardCorners_**: Finds positions of the internal corners of the chessboard. Returns a boolean value depending on if the given shape of corners are found, also returns location of the corners if true.
 
-cv2.cornerSubPix: The function iterates to find the sub-pixel accurate location of corners or radial saddle points.
+**_cv2.cornerSubPix_**: The function iterates to find the sub-pixel accurate location of corners or radial saddle points.
 
-cv2.drawChessboardCorners: Renders the detected chessboard corners.
+**_cv2.drawChessboardCorners_**: Renders the detected chessboard corners.
 
-cv2.calibrateCamera: Finds the camera intrinsic and extrinsic parameters from several views of a calibration pattern. Returns the rotation and translation matrix corresponding to each pattern. Also returns the camera intrinsic and distortion vector corresponding to lowest reprojection error.
-cv2.projectPoints: Projects 3D points to an image. Used for calculating the reprojection error.
-cv2.norm: Calculates the absolute or relative difference norm between the given image matrices. 
+**_cv2.calibrateCamera _**: Finds the camera intrinsic and extrinsic parameters from several views of a calibration pattern. Returns the rotation and translation matrix corresponding to each pattern. Also returns the camera intrinsic and distortion vector corresponding to lowest reprojection error.
+**_cv2.projectPoints_**: Projects 3D points to an image. Used for calculating the reprojection error.
+**_cv2.norm_**: Calculates the absolute or relative difference norm between the given image matrices. 
 
 ###### RESULTS
 The algorithm takes 40 patterns from the given sample to calibrate the given camera. To cover all the possible orientations of the checkerboard, the selected sample images must be different in orientations. Three techniques have been used to select such samples-
