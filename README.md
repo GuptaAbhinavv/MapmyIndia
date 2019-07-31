@@ -19,7 +19,7 @@ We can use the following command to get the details of a bag file:
 rosbag info foo.bag
 The output might look something like this:
 
-                                           Fig. 1
+![Fig. 1](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image1.png)
 
 ###### IMAGE EXTRACTION
 The images contained in the bag file can be extracted using the below given code snippet:
@@ -30,7 +30,8 @@ path_name: path of the directory where images will be stored.
 image_topic: topic of the image e.g. /frontNear/left/image_raw/
 
 
-                                                 Fig. 2: To extract the images out of a given bag file
+![Fig. 2: To extract the images out of a given bag file](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image2.png)
+
 
 
 Run the above code and store the corresponding images in the left and right directories(based on the topics of the messages).
@@ -52,6 +53,8 @@ Note that the directory for storing the left and right images needs to be create
 
 ###### FLOWCHART
 
+![Fig. 3](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image3.png)
+
 
 ###### IMPORTANT FUNCTIONS USED 
 **_compare_ssim_**: Compute the mean structural similarity index between two images.
@@ -72,16 +75,26 @@ Simply selecting first 40 images: Very low reprojection error suggests a possibi
 
 For right images:
 
+![Fig. 4](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image4.png)
+
 
 For left images:
 
+![Fig. 5](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image6.png)
 
 
 Skipping a few images after each image: Another approach we came up with is to skip about 20 to 25 images after selecting one so as to keep the variation amongst the selected images. The results obtained on including every 30th image are:
- 
+ ![Fig. 6](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image6.png)
 Calculating Structural Similarity index and filtering: Involves calculating the structural similarity index to compare every image with the previous image selected for calibration, based on the assumption that each image is more likely to be similar to the image previous to it as compared to others. A threshold value of SSIM is selected arbitrarily and the images with their value higher than the threshold are rejected. The results, obviously, are highly sensitive to the threshold value. 
 ######    a. Results with threshold SSIM = 0.65
+
+![Fig. 7](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image7.png)
+
+
 ######    b. Results with threshold SSIM = 0.62
+
+![Fig. 8](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image8.png)
+
 
 
 
