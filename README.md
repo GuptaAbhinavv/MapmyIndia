@@ -106,7 +106,7 @@ The images used for the extrinsic calibration of the cameras are images of an Ar
 
 ###### FLOWCHART
 
-![Flowchart](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/Flowchart2.png)
+![Flowchart](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/flowchart2.png)
 
 ###### IMPORTANT FUNCTIONS
 **_aruco.DetectMarkers()_**: Function from the aruco library of OpenCV, detects the corners of the aruco marker and returns the id of the aruco marker along with image coordinates of the corners of the marker.
