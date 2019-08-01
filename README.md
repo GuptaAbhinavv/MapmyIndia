@@ -102,7 +102,7 @@ Calculating Structural Similarity index and filtering: Involves calculating the 
 
 ###### IMAGES
 The images used for the extrinsic calibration of the cameras are images of an ArUco marker on a cardboard, as shown below,
-![Sample Image]()
+![Sample Image](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/frame000000.png)
 
 ###### FLOWCHART
 
