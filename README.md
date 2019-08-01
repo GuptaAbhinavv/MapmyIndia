@@ -65,7 +65,7 @@ Note that the directory for storing the left and right images needs to be create
 
 **_cv2.drawChessboardCorners_**: Renders the detected chessboard corners.
 
-**_cv2.calibrateCamera _**: Finds the camera intrinsic and extrinsic parameters from several views of a calibration pattern. Returns the rotation and translation matrix corresponding to each pattern. Also returns the camera intrinsic and distortion vector corresponding to lowest reprojection error.
+**_cv2.calibrateCamera_**: Finds the camera intrinsic and extrinsic parameters from several views of a calibration pattern. Returns the rotation and translation matrix corresponding to each pattern. Also returns the camera intrinsic and distortion vector corresponding to lowest reprojection error.
 **_cv2.projectPoints_**: Projects 3D points to an image. Used for calculating the reprojection error.
 **_cv2.norm_**: Calculates the absolute or relative difference norm between the given image matrices. 
 
@@ -98,3 +98,23 @@ Calculating Structural Similarity index and filtering: Involves calculating the 
 
 
 
+## Extrinsic
+
+###### IMAGES
+The images used for the extrinsic calibration of the cameras are images of an ArUco marker on a cardboard, as shown below,
+![Sample Image]()
+
+###### FLOWCHART
+
+![Flowchart]
+
+###### IMPORTANT FUNCTIONS
+**_aruco.DetectMarkers()_**: Function from the aruco library of OpenCV, detects the corners of the aruco marker and returns the id of the aruco marker along with image coordinates of the corners of the marker.
+**_cv2.stereoCalibrate()_**: Given the camera matrices, object points and the corresponding image points in images from both of the stereo cameras, it calculates the R, T, E, F i.e. Rotation Vector, Translation Vector,  Essential Matrix and the Fundamental Matrix respectively. R and T define the extrinsic calibration parameters between the two cameras.
+###### RESULTS
+
+###### VERIFICATION
+The above results can be verified by calculating the value of-
+##### x'Fx
+which is supposed to be equal to zero according to the standard fundamental matrix equation. Closer the value to 0, accurate are the results.
+**x'** and **x** in the above formula are the corresponding image coordinates in second and first image respectively.
