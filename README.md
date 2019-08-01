@@ -110,6 +110,7 @@ The images used for the extrinsic calibration of the cameras are images of an Ar
 
 ###### IMPORTANT FUNCTIONS
 **_aruco.DetectMarkers()_**: Function from the aruco library of OpenCV, detects the corners of the aruco marker and returns the id of the aruco marker along with image coordinates of the corners of the marker.
+
 **_cv2.stereoCalibrate()_**: Given the camera matrices, object points and the corresponding image points in images from both of the stereo cameras, it calculates the R, T, E, F i.e. Rotation Vector, Translation Vector,  Essential Matrix and the Fundamental Matrix respectively. R and T define the extrinsic calibration parameters between the two cameras.
 ###### RESULTS
 
