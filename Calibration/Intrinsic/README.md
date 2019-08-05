@@ -84,3 +84,8 @@ Calculating Structural Similarity index and filtering: Involves calculating the 
 ######    b. Results with threshold SSIM = 0.62
 
 ![Fig. 8](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image8.png)
+
+A plot of threshold value of ssim of selected images() against the reprojection error(Y) - 
+![plot](https://user-images.githubusercontent.com/29208697/62463900-dce69b00-b7a8-11e9-815c-d54797f7e13c.png)
+
+
