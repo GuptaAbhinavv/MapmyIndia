@@ -5,7 +5,7 @@
 
 ### Part1. Camera Calibration:
 
-#### 1. [Computer Vision Notes](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/Calibration/Notes.md)
+#### 1. [Computer Vision Notes](MapmyIndia/blob/master/Calibration/Notes.md)
 #### 2. [Intrinsic, *using checkerboard pattern*](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/Calibration/Intrinsic/README.md)
 #### 3. [Extrinsic, *using ArUco markers*](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/Calibration/Extrinsic/README.md)
 
