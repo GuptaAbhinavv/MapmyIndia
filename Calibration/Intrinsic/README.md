@@ -20,7 +20,7 @@ path_name: path of the directory where images will be stored.
 image_topic: topic of the image e.g. /frontNear/left/image_raw/
 
 
-![Fig. 2: To extract the images out of a given bag file](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image2.png)
+![Fig. 2: To extract the images out of a given bag file](images/image2.png)
 
 
 
@@ -43,7 +43,7 @@ Note that the directory for storing the left and right images needs to be create
 
 ###### FLOWCHART
 
-![Fig. 3](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image3.png)
+![Fig. 3](images/image3.png)
 
 
 ###### IMPORTANT FUNCTIONS USED 
@@ -65,12 +65,12 @@ Simply selecting first 40 images: Very low reprojection error suggests a possibi
 
 For right images:
 
-![Fig. 4](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image4.png)
+![Fig. 4](images/image4.png)
 
 
 For left images:
 
-![Fig. 5](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image6.png)
+![Fig. 5](images/image6.png)
 
 
 Skipping a few images after each image: Another approach we came up with is to skip about 20 to 25 images after selecting one so as to keep the variation amongst the selected images. The results obtained on including every 30th image are:
@@ -78,12 +78,12 @@ Skipping a few images after each image: Another approach we came up with is to s
 Calculating Structural Similarity index and filtering: Involves calculating the structural similarity index to compare every image with the previous image selected for calibration, based on the assumption that each image is more likely to be similar to the image previous to it as compared to others. A threshold value of SSIM is selected arbitrarily and the images with their value higher than the threshold are rejected. The results, obviously, are highly sensitive to the threshold value. 
 ######    a. Results with threshold SSIM = 0.65
 
-![Fig. 7](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image7.png)
+![Fig. 7](images/image7.png)
 
 
 ######    b. Results with threshold SSIM = 0.62
 
-![Fig. 8](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image8.png)
+![Fig. 8](images/image8.png)
 
 A plot of threshold value of ssim of selected images(X) against the reprojection error(Y) - 
 ![plot](https://user-images.githubusercontent.com/29208697/62463900-dce69b00-b7a8-11e9-815c-d54797f7e13c.png)
