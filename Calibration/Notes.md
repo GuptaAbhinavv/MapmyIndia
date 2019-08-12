@@ -8,7 +8,7 @@ made to gain high-level understanding from digital images or videos.
 
 ##### Basic Pinhole Model:
 
-![image](41137582/62455336-bcf8ac80-b793-11e9-93fb-ae19de7ff873.png)
+![image](https://user-images.githubusercontent.com/41137582/62455336-bcf8ac80-b793-11e9-93fb-ae19de7ff873.png)
 
 ##### Principal Point Offset:
 
