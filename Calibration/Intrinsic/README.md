@@ -9,7 +9,7 @@ We can use the following command to get the details of a bag file:
 rosbag info foo.bag
 The output might look something like this:
 
-![Fig. 1](images/image1.png)
+![Fig. 1](MapmyIndia/blob/master/images/image1.png)
 
 ###### IMAGE EXTRACTION
 The images contained in the bag file can be extracted using the below given code snippet:
@@ -20,7 +20,7 @@ path_name: path of the directory where images will be stored.
 image_topic: topic of the image e.g. /frontNear/left/image_raw/
 
 
-![Fig. 2: To extract the images out of a given bag file](images/image2.png)
+![Fig. 2: To extract the images out of a given bag file](MapmyIndia/blob/master/images/image2.png)
 
 
 
@@ -43,7 +43,7 @@ Note that the directory for storing the left and right images needs to be create
 
 ###### FLOWCHART
 
-![Fig. 3](images/image3.png)
+![Fig. 3](MapmyIndia/blob/master/images/image3.png)
 
 
 ###### IMPORTANT FUNCTIONS USED 
@@ -65,12 +65,12 @@ Simply selecting first 40 images: Very low reprojection error suggests a possibi
 
 For right images:
 
-![Fig. 4](images/image4.png)
+![Fig. 4](MapmyIndia/blob/master/images/image4.png)
 
 
 For left images:
 
-![Fig. 5](images/image6.png)
+![Fig. 5](MapmyIndia/blob/master/images/image6.png)
 
 
 Skipping a few images after each image: Another approach we came up with is to skip about 20 to 25 images after selecting one so as to keep the variation amongst the selected images. The results obtained on including every 30th image are:
