@@ -11,5 +11,5 @@ If the new dataset is very much large, retrain the whole network with initial we
 
 
 - A very simple tutorial for applying Transfer Learning on pre-trained ResNet can be found on [Kaggle](https://www.kaggle.com/dansbecker/transfer-learning).
-- Transfer Learning for CNNs knowledge [@CS231n](http://cs231n.github.io/transfer-learning/)(Stanford University)
+- Transfer Learning for CNNs knowledge [@CS231n](http://cs231n.github.io/transfer-learning/) (Stanford University)
 .
