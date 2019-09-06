@@ -1,7 +1,7 @@
 ### YOLOv3 (You only look once)
 
 YOLOv3 is an updated version of the original YOLO.
-Easy implementation of the pre-trained model can be  found on the [official website](https://pjreddie.com/darknet/yolo/). Also, easy steps to train it on selected datasets are given on the website. 
+Easy implementation of the pre-trained model can be  found on [https://pjreddie.com/darknet/yolo/](https://pjreddie.com/darknet/yolo/). Also, easy steps to train it on selected datasets are given on the website. 
 
 - [YOLO](YOLO.pdf) and [YOLOv3](YOLOv3.pdf) papers.
 
