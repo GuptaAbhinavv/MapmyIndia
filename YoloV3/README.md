@@ -11,7 +11,7 @@ Easy implementation of the pre-trained model can be  found on the [official webs
 Usage-
 ###### Getting weights-
       sudo chmod a+x getModels.sh
-      `./getModels.sh`
+      ./getModels.sh
 ###### Running code- 
      python3 yolo_objD.py --image=bird.jpg (For image)
      
