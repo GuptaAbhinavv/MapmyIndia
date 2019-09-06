@@ -15,4 +15,4 @@ Usage-
 ###### Running code- 
      python3 yolo_objD.py --image=bird.jpg (For image)
      
-     python3 yolo_objD.py -- video=run.mp4 (For video)
+     python3 yolo_objD.py --video=run.mp4 (For video)
