@@ -12,8 +12,6 @@ Usage-
 ###### Getting weights-
 `sudo chmod a+x getModels.sh`
 `./getModels.sh`
-###### Running code-
-  A single image:  
-    - `python3 yolo_objD.py --image=bird.jpg`
-  A video file:
-    - `python3 yolo_objD.py -- video=run.mpy`
+###### Running code- 
+    - `python3 yolo_objD.py --image=bird.jpg`(For image)
+    - `python3 yolo_objD.py -- video=run.mpy`(For video)
