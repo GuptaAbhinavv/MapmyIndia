@@ -12,7 +12,7 @@ Usage-
 ###### Getting weights-
   - `sudo chmod a+x getModels.sh`
   - `./getModels.sh`
-##### Running code-
+###### Running code-
   - A single image
     - `python3 yolo_objD.py --image=bird.jpg`
   - A video file:
