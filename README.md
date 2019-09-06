@@ -13,5 +13,5 @@
 
 #### 1. Apolloscape Datasets
 #### 2. Other Apollo Open Datasets
-#### 3. [Literature Survey](Literature/README.md)
-#### 4. [YoloV3](YoloV3/README.md)
+#### 3. [Literature Survey](Literature/)
+#### 4. [YoloV3](YoloV3/)
