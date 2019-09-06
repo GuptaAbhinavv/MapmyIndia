@@ -13,7 +13,7 @@ Usage-
 `sudo chmod a+x getModels.sh`
 `./getModels.sh`
 ###### Running code-
-  A single image
+  A single image: - 
     - `python3 yolo_objD.py --image=bird.jpg`
   A video file:
     - `python3 yolo_objD.py -- video=run.mpy`
