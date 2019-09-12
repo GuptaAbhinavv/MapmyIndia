@@ -1,0 +1,6 @@
+classes = 1
+train  = home/intern/snowman/snowman_train.txt
+valid  = home/intern/snowman/snowman_test.txt
+names = home/intern/snowman/classes.names
+backup = home/intern/snowman/weights/
+
