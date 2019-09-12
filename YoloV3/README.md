@@ -10,8 +10,8 @@ Easy implementation of the pre-trained model can be  found on [https://pjreddie.
 - Implementation of YOLOv3 using OpenCV in python based on [this](https://www.learnopencv.com/deep-learning-based-object-detection-using-yolov3-with-opencv-python-c/).
 Usage-
 ###### Getting weights-
-      sudo chmod a+x getModels.sh
-      ./getModels.sh
+      sudo chmod a+x getModel.sh
+      ./getModel.sh
 ###### Running code- 
      python3 yolo_objD.py --image=bird.jpg (For image)
      
