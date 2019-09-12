@@ -16,3 +16,5 @@ Usage-
      python3 yolo_objD.py --image=bird.jpg (For image)
      
      python3 yolo_objD.py --video=run.mp4 (For video)
+
+- Training YOLOv3 on custom data - [Snowman Detector](https://www.learnopencv.com/training-yolov3-deep-learning-based-custom-object-detector/)
