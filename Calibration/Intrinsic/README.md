@@ -27,20 +27,6 @@ image_topic: topic of the image e.g. /frontNear/left/image_raw/
 Run the above code and store the corresponding images in the left and right directories(based on the topics of the messages).
 Note that the directory for storing the left and right images needs to be created before running the code. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ###### FLOWCHART
 
 ![Fig. 3](https://github.com/GuptaAbhinavv/MapmyIndia/blob/master/images/image3.png)
@@ -56,7 +42,9 @@ Note that the directory for storing the left and right images needs to be create
 **_cv2.drawChessboardCorners_**: Renders the detected chessboard corners.
 
 **_cv2.calibrateCamera_**: Finds the camera intrinsic and extrinsic parameters from several views of a calibration pattern. Returns the rotation and translation matrix corresponding to each pattern. Also returns the camera intrinsic and distortion vector corresponding to lowest reprojection error.
+
 **_cv2.projectPoints_**: Projects 3D points to an image. Used for calculating the reprojection error.
+
 **_cv2.norm_**: Calculates the absolute or relative difference norm between the given image matrices. 
 
 ###### RESULTS
