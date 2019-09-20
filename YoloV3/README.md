@@ -22,4 +22,5 @@ Usage-
 - Training YOLOv3 on custom data - Obstacle Detection([Apollo.auto](http://data.apollo.auto/help?name=data-2d-obstacle-intro&data_key=2d_obstacle_label&data_type=0&locale=en-us&lang=en)). 
 Follow a few steps to train YOLO on custom datasets-
 
-      - Make sure all of your images, training and testing images rside in a folder called *JPEGImages*.
+      - Make sure all of your images, training and testing images rside in a directory called *JPEGImages*.
+      - Similarly, the labels lie in a directory named *labels* with names same as corresponding image. 
