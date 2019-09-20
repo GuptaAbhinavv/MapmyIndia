@@ -28,4 +28,4 @@ Follow a few steps to train YOLO on any dataset-
       - Search for the [yolo] layer. Edit number of classes in each [yolo] layer.
       - Also, change filter value in the [convolution] above [yolo] to #anchors*(5 + #of classes)
   
-- Sample Apollo Obstacle Detection dataset and corresponding files - [here](/ObstacleDetection_Apollo/)
+- Sample Apollo Obstacle Detection dataset and corresponding files - [here](ObstacleDetection_Apollo/)
