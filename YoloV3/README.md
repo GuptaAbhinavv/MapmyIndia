@@ -28,4 +28,8 @@ Follow a few steps to train YOLO on any dataset-
       - Search for the [yolo] layer. Edit number of classes in each [yolo] layer.
       - Also, change filter value in the [convolution] above [yolo] to #anchors*(5 + #of classes)
   
-- Sample Apollo Obstacle Detection dataset and corresponding files - [here](ObstacleDetection_Apollo/)
+- Sample Apollo Obstacle Detection dataset and corresponding files - [here](ObstacleDetection_Apollo/). To train on this dataset-
+
+      - Change the .data file values and edit test, train files according to your folder structure.
+      - Make an empty directory "weights" to store the weights.
+      - Run : ./darknet detector train path/to/data/file/darknet.data path/to/cfg/file/darknet-yolov3.cfg darknet53.conv.74
