@@ -35,4 +35,4 @@ Follow a few steps to train YOLO on any dataset-
       - Run : ./darknet detector train path/to/data/file/darknet.data path/to/cfg/file/darknet-yolov3.cfg darknet53.conv.74
       
 Smaple results from above trained model-
-![image](predictions.jpg)
+![image](ObstacleDetection_Apollo/predictions.jpg)
