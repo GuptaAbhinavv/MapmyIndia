@@ -1,0 +1,6 @@
+classes = 11
+train  = /aimldl-cod/external/ObsD2/train.txt
+valid  = /aimldl-cod/external/ObsD2/test.txt
+names = /aimldl-cod/external/ObsD2/apollo.names
+backup = /aimldl-cod/external/ObsD2/weights/
+
