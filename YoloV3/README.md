@@ -33,3 +33,6 @@ Follow a few steps to train YOLO on any dataset-
       - Change the .data file values and edit test, train files according to your folder structure.
       - Make an empty directory "weights" to store the weights.
       - Run : ./darknet detector train path/to/data/file/darknet.data path/to/cfg/file/darknet-yolov3.cfg darknet53.conv.74
+      
+Smaple results from above trained model-
+[](predictions.jpg)
