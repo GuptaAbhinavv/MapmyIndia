@@ -20,10 +20,12 @@ Usage-
 - Training YOLOv3 on custom data - [Snowman Detector](https://www.learnopencv.com/training-yolov3-deep-learning-based-custom-object-detector/)
 
 - Training YOLOv3 on custom data - Obstacle Detection([Apollo.auto](http://data.apollo.auto/help?name=data-2d-obstacle-intro&data_key=2d_obstacle_label&data_type=0&locale=en-us&lang=en)). 
-Follow a few steps to train YOLO on custom datasets-
+Follow a few steps to train YOLO on any dataset-
 
       - Make sure all of your images, training and testing images rside in a directory called "JPEGImages".
       - Similarly, the labels lie in a directory named "labels" with names same as corresponding image.
       - In the configuration(.cfg) file, if commented, uncomment the 6, 7 line and set batch size and subdivisions appropriately.
       - Search for the [yolo] layer. Edit number of classes in each [yolo] layer.
       - Also, change filter value in the [convolution] above [yolo] to #anchors*(5 + #of classes)
+  
+- Sample Apollo Obstacle Detection dataset and corresponding files - [here](/ObstacleDetection_Apollo/)
