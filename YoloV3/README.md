@@ -34,5 +34,5 @@ Follow a few steps to train YOLO on any dataset-
       - Make an empty directory "weights" to store the weights.
       - Run : ./darknet detector train path/to/data/file/darknet.data path/to/cfg/file/darknet-yolov3.cfg darknet53.conv.74
       
-Smaple results from above trained model-
+Sample results from above trained model-
 ![image](ObstacleDetection_Apollo/predictions.jpg)
