@@ -6,7 +6,7 @@
 
 #### Training Images - 
 
-#### Click [here](YoloV3/) to see training procedure. 
+#### Click [here](YoloV3/README.md) to see training procedure. 
 
 
 
