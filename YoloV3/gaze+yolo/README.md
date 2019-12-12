@@ -8,7 +8,7 @@ The folders 'trainLabels' and 'testLabels' now contain labels you need for train
 
 **Step3.** The 'newlist.txt' file in each folder contains image name and corresponding urls. Run following commands to download training and testing images.
 
-'''
+```
 - mkdir trainImages
 - cd trainImages
 - xargs -n 2 curl -o < ../trainLabels/newlist.txt
@@ -16,6 +16,6 @@ The folders 'trainLabels' and 'testLabels' now contain labels you need for train
 - cd testImages
 - xargs -n 2 cul -o < ../testLabels/newlist.txt
 
-'''
+```
 
 
