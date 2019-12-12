@@ -27,5 +27,6 @@ The folders 'trainLabels' and 'testLabels' now contain labels you need for train
 
 **Step6.** Create all the other important files needed for training as mentioned [here](../README.md).
 
-**Step7.** From yout darknet folder run [runYOLO.py](runYOLO.py) after changing the paths according to your system in the python file.
+**Step7.** Create a folder 'testPredictions' to store prediction files. From your darknet folder run [runYOLO.py](runYOLO.py) after changing the paths according to your system in the python file.
+
 
