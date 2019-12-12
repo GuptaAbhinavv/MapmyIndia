@@ -30,3 +30,6 @@ The folders 'trainLabels' and 'testLabels' now contain labels you need for train
 **Step7.** Create a folder 'testPredictions' to store prediction files. From your darknet folder run [runYOLO.py](runYOLO.py) after changing the paths according to your system in the python file.
 
 
+### Evaluation
+Visit - [https://github.com/Cartucho/mAP](https://github.com/Cartucho/mAP) and follow the whole mAP calculation procedure.
+
