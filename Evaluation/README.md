@@ -27,8 +27,8 @@ Refer the above GitHub repo for code for mAP calculation.
 
 _At IoU threshold = 0.5_
 
-![Signage](AP2.png)     **Signage**
-![image](AP1.png)       **Traffic-sign**
-![image](AP3.png)       **Traffic-light**
-
-
+![image](AP2.png)     **Signage**
+![image](AP1.png)     **Traffic-sign**
+![image](AP3.png)     **Traffic-light**
+![image](TPFP.png)
+**TP and FP count at 0.5 IoU**
