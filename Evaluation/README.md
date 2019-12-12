@@ -1,8 +1,8 @@
 ## Training Schedule - 
 
-#### Dataset/Job - 
+#### Dataset/Job - ods_job_120619
 
-#### Labels - 
+#### Labels - 3 ['signage', 'traffic_sign', 'traffic_light']
 
 #### Training Images - 
 
