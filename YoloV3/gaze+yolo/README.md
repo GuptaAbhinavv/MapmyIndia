@@ -15,6 +15,7 @@ The folders 'trainLabels' and 'testLabels' now contain labels you need for train
 - mkdir testImages
 - cd testImages
 - xargs -n 2 cul -o < ../testLabels/newlist.txt
+
 '''
 
 
