@@ -17,5 +17,5 @@
 #### Test Images - 8,801
 
 #### Evaluation metric - [mAP](https://github.com/Cartucho/mAP). 
-    Refer the above GitHub repo for code for mAP calculation.
+Refer the above GitHub repo for code for mAP calculation.
 ## Statistics -
