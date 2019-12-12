@@ -35,9 +35,9 @@ _At IoU threshold = 0.5_
 
 
 _Precision-Recall curve for different IoU values_
-![image](figure1.png) **signage**
-![image](figure2.png) **traffic_sign**
-![image](figure3.png) **traffic_light**
+![image](Figure_1.png) **signage**
+![image](Figure_2.png) **traffic_sign**
+![image](Figure_3.png) **traffic_light**
 
-_mAP(average over different IoU values)
+_mAP(average over different IoU values)_
 ![image](mAP.png)
