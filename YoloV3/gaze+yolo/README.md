@@ -21,5 +21,8 @@ The folders 'trainLabels' and 'testLabels' now contain labels you need for train
 ```
 
 ### Training
-**Step4.**
+**Step4.** Create a new folder for all training related files. Create 3 folders with names 'JPEGImages', 'labels' and 'weights'.
+
+**Step5** Copy the training images in JPEGImages folder and training labels in labels folder.
+**Step6** Create all the other important files needed for training as mentioned [here](../README.md)
 
