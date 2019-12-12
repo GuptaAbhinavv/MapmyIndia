@@ -7,6 +7,7 @@
 The folders 'trainLabels' and 'testLabels' now contain labels you need for training and testing.
 
 **Step3.** The 'newlist.txt' file in each folder contains image name and corresponding urls. Run following commands to download training and testing images.
+
 '''
 - mkdir trainImages
 - cd trainImages
