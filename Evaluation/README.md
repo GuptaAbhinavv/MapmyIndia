@@ -24,3 +24,7 @@ Refer the above GitHub repo for code for mAP calculation.
 
 
 ## Statistics -
+
+_At IoU threshold = 0.5_
+
+
