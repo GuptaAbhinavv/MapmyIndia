@@ -8,7 +8,7 @@ This is a temporary script file.
 import json
 
 
-## List of all json files from where images have to be extracted
+## List of all json files from where images have to be extracted. Edit path accordingly.
 listfile = open("/home/intern/ods_job_120619/annotations/list.txt", "r")
 jsonfiles=listfile.readlines()
 
@@ -17,6 +17,7 @@ imgcount=0
 
 for jsonfile in jsonfiles:
 	filecount = filecount+1
+	#Edit path accordingly.
 	with open("/home/intern/ods_job_120619/annotations/"+jsonfile[:-1], "r") as read_file:
 		data = json.load(read_file)
 	dW = 1./1920
@@ -28,28 +29,30 @@ for jsonfile in jsonfiles:
 	lis.append("traffic_sign")
 	lis.append("traffic_light")
 
-	## For maintaining list of training images
+	## For maintaining list of training images. Edit path accordingly.
 	imlist = open("/home/intern/newLabelsTrain/list.txt", "a")
-	## For maintaining list of every train image with its corresponding url
+	## For maintaining list of every train image with its corresponding url. Edit path accordingly.
 	newlist = open("/home/intern/newLabelsTrain/newlist.txt", "a")
 
-	## For maintaining list of test iamges
+	## For maintaining list of test iamges. Edit path accordingly.
 	imlist2 = open("/home/intern/newLabelsTest/list.txt", "a")
-	## For maintaining list of every test image with its corresponding url
+	## For maintaining list of every test image with its corresponding url. Edit path accordingly.
 	newlist2 = open("/home/intern/newLabelsTest/newlist.txt", "a")
 
 	for x in data:
 		## Uncomment next line to filter hard negatives.
-    	#if(len(data[x]["regions"]) < 1):continue
+    		#if(len(data[x]["regions"]) < 1):continue
 		filename = x.split('.')[0]
 
 		## Splitting in the ratio 70:30
 		if imgcount%100 < 70:
+			# Edit path accordingly.
 			fileobj = open("/home/intern/newLabelsTrain/" + filename + ".txt", "w")
 			imgcount=imgcount+1
 			imlist.write(filename + ".jpg"+ "\n")
 			newlist.write(filename + ".jpg"+ "\n") 
-			newlist.write("http://10.4.71.100/stage/maze/vs/trackSticker.php?action=getImage&image=" + filename + ".jpg" + "\n")
+			# Edit IP of the server.
+			newlist.write("http://X.X.X.X/stage/maze/vs/trackSticker.php?action=getImage&image=" + filename + ".jpg" + "\n")
 			for y in data[x]["regions"]:
 				if(y["region_attributes"]["Label"]) not in lis: continue
 				fileobj.write(str(lis.index(y["region_attributes"]["Label"])))
@@ -88,11 +91,13 @@ for jsonfile in jsonfiles:
 					fileobj.write("\n")
 			fileobj.close()
 		else:
+			# Edit path accordingly.
 			fileobj = open("/home/intern/newLabelsTest/" + filename + ".txt", "w")
 			imgcount=imgcount+1
 			imlist2.write(filename + ".jpg"+ "\n")
 			newlist2.write(filename + ".jpg"+ "\n") 
-			newlist2.write("http://10.4.71.100/stage/maze/vs/trackSticker.php?action=getImage&image=" + filename + ".jpg" + "\n")
+			# Edit the IP address of the server.
+			newlist2.write("http://X.X.X.X/stage/maze/vs/trackSticker.php?action=getImage&image=" + filename + ".jpg" + "\n")
 			for y in data[x]["regions"]:
 				if(y["region_attributes"]["Label"]) not in lis: continue
 				fileobj.write(str(lis.index(y["region_attributes"]["Label"])))
