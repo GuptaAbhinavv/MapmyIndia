@@ -1,12 +1,12 @@
 ## Training Schedule - 
 
-  #### Dataset/Job - ods_job_120619
+####    Dataset/Job - ods_job_120619
 
-  #### Labels - 3 ['signage', 'traffic_sign', 'traffic_light']
+####    Labels - 3 ['signage', 'traffic_sign', 'traffic_light']
 
-  #### Training Images - 20,283
-
-  #### Click [here](/YoloV3/README.md) to see training procedure. 
+####    Training Images - 20,283
+  
+####    Click [here](/YoloV3/README.md) to see training procedure. 
 
 
 
