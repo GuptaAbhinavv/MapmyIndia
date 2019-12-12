@@ -27,6 +27,6 @@ Refer the above GitHub repo for code for mAP calculation.
 
 _At IoU threshold = 0.5_
 
-![image](AP2.png)
+![Signage](AP2.png)
 ![image](AP1.png)
 ![image](AP3.png)
